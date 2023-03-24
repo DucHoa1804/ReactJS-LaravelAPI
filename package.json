@@ -1,0 +1,75 @@
+{
+  "name": "reactduchoa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@formatjs/intl-pluralrules": "^5.1.10",
+    "@formatjs/intl-relativetimeformat": "^11.1.10",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^2.9.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node-sass": "^7.0.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-flatpickr": "^3.10.13",
+    "react-hook-form": "^7.43.5",
+    "react-intl": "^6.3.0",
+    "react-loading-skeleton": "^3.2.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.9.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.1",
+    "reactstrap": "^9.1.6",
+    "redux": "^4.2.1",
+    "redux-auth-wrapper": "^3.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-state-sync": "^3.1.4",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.59.3",
+    "sweetalert": "^2.1.2",
+    "typescript": "^4.9.5",
+    "vendors": "^2.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^5.0.0",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1"
+  }
+}
